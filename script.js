@@ -21,6 +21,10 @@ btnEncrypt.addEventListener("click", () => {
             continue
         }
 
+        if (keyValue < 0){
+            continue
+        }
+
         const indexLetter = listLetter.findIndex((item) => item === letter);
 
         // Encryption operation
@@ -45,6 +49,10 @@ btnDecrypt.addEventListener("click", () => {
 
         // Check if the letter is an alphabetical letter in listLetter
         if (!listLetter.includes(letter)){
+            continue
+        }
+        
+        if (keyValue < 0){
             continue
         }
 

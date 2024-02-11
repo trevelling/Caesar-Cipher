@@ -36,14 +36,13 @@ body{
 }
 
 #buttons-container {
-    margin-right: 20px;
     display: flex;
-    width: 100%;
-    justify-content: space-between;
+    width: 60%;
+    justify-content: space-evenly;
 }
 
 #buttons-container input{
-    width: 30px;
+    width: 20px;
     margin: 0 15 0 15px;
 }
 
