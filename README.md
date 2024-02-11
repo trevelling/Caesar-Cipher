@@ -14,3 +14,5 @@ How to Use
     Input the key value in the designated input field.
     Click the "Encrypt" button to encrypt the message or the "Decrypt" button to decrypt the message.
     Optionally, click the "Clear" button to clear the text area and start over with a new message.
+
+Try it out @  https://trevelling.github.io/Caesar-Cipher/
