@@ -1,1 +1,78 @@
+body{
+    margin: 0;
+    background-color: #191919;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container h1{
+    text-align: center;
+    color: antiquewhite;
+}
+
+#app-container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+}
+
+#app-container textarea{
+    height: 200px;
+    width: 100%;
+    max-width: 600px;
+    font-size: 1.2rem;
+    padding: 10px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    resize: none;
+}
+
+#buttons-container {
+    margin-right: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#buttons-container input{
+    width: 30px;
+    margin: 0 15 0 15px;
+}
+
+#buttons-container button {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+    font-size: 1.3em;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#buttons-container button:hover {
+    background-color: #0056b3;
+}
+
+#buttons-container input[type="text"]#key {
+    width: 50px;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    border-color: #ffffff;
+}
+
+#buttons-container input[type="text"]#key:focus {
+    outline: none;
+    box-shadow: 0px 0px 5px rgba(0, 123, 255, 0.5);
+}
+
+
 
