@@ -25,6 +25,10 @@ btnEncrypt.addEventListener("click", () => {
             continue
         }
 
+        if (keyValue >= 26){
+            continue
+        }
+
         const indexLetter = listLetter.findIndex((item) => item === letter);
 
         // Encryption operation
@@ -53,6 +57,10 @@ btnDecrypt.addEventListener("click", () => {
         }
         
         if (keyValue < 0){
+            continue
+        }
+
+        if (keyValue >= 26){
             continue
         }
 
