@@ -1,3 +1,5 @@
+# Caesar Cipher
+
 This program implements the Caesar Cipher encryption and decryption algorithm. The Caesar Cipher is a simple substitution cipher where each letter in the plaintext is shifted a certain number of times to form the ciphertext. To decrypt, the receiver reverses the shift. The encryption step performed by a Caesar cipher is often incorporated as part of more complex schemes, such as the Vigenère cipher, and still has modern application in the ROT13 system
 
 Features
